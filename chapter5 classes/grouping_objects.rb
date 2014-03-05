@@ -96,6 +96,16 @@ end
 
 puts do_nothing.class
 
+puts "-----------\n"
+# This shows the problem which will happen if you put a return in the wrong place
+
+def demonstrate_early_return
+  return
+  puts "You will never see this, because we never get here."
+end
+
+puts demonstrate_early_return.class
+
 
 
 
