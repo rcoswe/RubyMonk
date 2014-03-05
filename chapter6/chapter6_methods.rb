@@ -33,3 +33,14 @@ def add(a_number, another_number, yet_another_number = 0)
 end
 
 puts add(1, 2)
+
+# Call method with and without parameters
+
+puts "-----------\n"
+
+def say_hello(name = "Qui-Gon Jinn")
+  "Hello, #{name}."
+end
+
+puts say_hello("Richard Cohen")
+puts say_hello
