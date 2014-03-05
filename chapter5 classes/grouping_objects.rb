@@ -1,3 +1,6 @@
+# Starting revision of older work 5 march 2014
+# 
+
 puts RUBY_VERSION
 
 puts "---------------------------------"
