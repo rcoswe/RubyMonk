@@ -86,6 +86,15 @@ end
 puts reverse_sign(100)
 puts reverse_sign(-5)
 
+puts "-----------\n"
+
+# As you can see, even a method that does nothing at all and has no return produces an object - the nil. 
+# I'm printing out the class name because printing a nil returns an empty string, so you wouldn't see anything.
+
+def do_nothing
+end
+
+puts do_nothing.class
 
 
 
