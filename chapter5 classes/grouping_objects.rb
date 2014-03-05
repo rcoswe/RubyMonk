@@ -69,6 +69,12 @@ puts 1.next
 puts "-----------\n"
 puts 1.method("next")
 
+# The method object still maintains a relationship with the object to which it belongs so you 
+# can still call it and it responds like a normal invocation of that method.
+
+puts "-----------\n"
+next_method_object = 1.method("next")
+puts next_method_object.call
 
 
 
