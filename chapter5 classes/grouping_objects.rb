@@ -76,6 +76,16 @@ puts "-----------\n"
 next_method_object = 1.method("next")
 puts next_method_object.call
 
+puts "-----------\n"
+# Method that reverse the sign of an integer
+
+def reverse_sign(an_integer)
+  return 0 - an_integer
+end
+
+puts reverse_sign(100)
+puts reverse_sign(-5)
+
 
 
 
