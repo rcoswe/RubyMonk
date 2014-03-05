@@ -51,7 +51,8 @@ r1 = Rectangle.new(3, 4)
 puts r1.perimeter
 puts r1.area
 
-
+puts "-----------\n"
+puts 1.next
 
 
 
