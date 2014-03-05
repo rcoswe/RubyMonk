@@ -23,3 +23,13 @@ def add(a_number, another_number, yet_another_number)
 end
 
 puts add(1, 2, 3)
+
+# Now with 3 parameters and a default 
+
+puts "-----------\n"
+
+def add(a_number, another_number, yet_another_number = 0)
+  a_number + another_number + yet_another_number
+end
+
+puts add(1, 2)
