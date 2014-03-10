@@ -74,3 +74,16 @@ end
 
 numbers_to_add = [1, 2, 3] # Without a splat, this is just one parameter
 puts add(*numbers_to_add)  # Try removing the splat just to see what happens
+
+# The splat operator with message
+puts "-----------\n"
+
+def add(*numbers)
+  numbers.inject(0) { |sum, number| sum + number }
+end
+
+def add_with_message(message, *numbers)
+  "#{message} : #{add(*numbers)}"
+end
+
+puts add_with_message("The Sum is", 1, 2, 3)
