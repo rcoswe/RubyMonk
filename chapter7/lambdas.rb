@@ -12,6 +12,7 @@
 l = lambda { "Do or do not" }
 puts l.call
 
+puts "\n-------------\n\n"
 
 l = lambda do |string|
   if string == "try"
@@ -23,4 +24,11 @@ end
 puts l.call("try") # Feel free to experiment with this
 puts l.call("shit")
 
+
+# Now go ahead and add a lambda to the following code which increments any number passed to it by 1.
+puts "\n-------------\n\n"
+
+Increment = lambda {|number| number + 1 } # your lambda between the braces
+
+puts Increment.call(8)
 
