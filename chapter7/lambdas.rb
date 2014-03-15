@@ -47,7 +47,7 @@ puts Increment.call(8)
 # wrote in the previous exercise.
 puts "\n-------------\n\n"
 
-def demonstrate_block(number)
+def demonstrate_block(number) 
   yield(number)
 end
 
